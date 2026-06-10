@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { Mail, Lock, Eye, EyeOff, ArrowRight } from "lucide-react";
-import { login } from "../redux/rAuth/actions";
+import { login } from "../redux/rAuth/Actions";
 
 export default function Login() {
   const [email, setEmail] = useState("");
